@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<main class="page">
+  <section class="panel" style="max-width:900px;">
+    <h1 class="love-title">Quiz</h1>
+    <p>Fout wordt rood. Goed wordt groen. Na alles goed komt confetti en wordt “Volgende” actief.</p>
+
+    <canvas id="confetti"></canvas>
+
+    <div class="quiz-wrap">
+      <div class="qline" id="q"></div>
+      <div class="opts" id="opts"></div>
+
+      <div class="quiz-footer">
+        <div class="quiz-status" id="status"></div>
+        <a class="btn btn-link" id="nextLink" href="ask.html" aria-disabled="true">Volgende →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/quiz.js"></script>
+</body>
+</html>

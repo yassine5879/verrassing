@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vraag</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<main class="ask-page">
+  <section class="ask-card">
+    <h1 class="ask-title">Rosa, Will you be my valentine?</h1>
+    <p class="ask-sub">Por favor responda honestamente.</p>
+
+    <div class="ask-buttons">
+      <button class="btn ask-yes" id="yesBtn" type="button">Yes</button>
+      <button class="btn ask-no" id="noBtn" type="button">No</button>
+    </div>
+
+    <p class="ask-tip">Tip: je kan proberen, maar hij werkt tegen.</p>
+
+    <div class="yes-banner" id="yesBanner" aria-hidden="true">
+      She said yes!!!
+    </div>
+  </section>
+</main>
+
+<!-- POPUP -->
+<div class="popup" id="popup" aria-hidden="true">
+  <div class="popup-box">
+    <h2 class="popup-title">Hé jij,</h2>
+
+    <p class="popup-text">
+      Sinds 4 juni 2024 is alles een beetje anders. Beter, leuker, soms chaotisch, maar vooral jij.
+      Met jou kan ik lachen, kloten, serieus zijn en weer terug naar onzin zonder dat het ooit raar voelt.
+      <br><br>
+      Ik vind het bizar hoe fijn het is om gewoon mezelf te zijn bij jou. Zelfs als ik m’n dag niet heb.
+      Jij bent m’n rust en m’n chaos tegelijk, en blijkbaar heb ik dat nodig.
+      <br><br>
+      Valentijnsdag is leuk, maar eerlijk? Ik ben vooral blij dat ik jou elke dag heb.
+      Jij bent m’n persoon. Vandaag, morgen en alles wat daarna komt.
+      <br><br>
+      I Love You. Ja, ook als je irritant doet. En dat weet je.
+    </p>
+
+    <div class="countdown-wrap">
+      <div class="countdown-label">Countdown tot 2 jaar samen</div>
+      <div class="countdown" id="countdown">Laden...</div>
+    </div>
+
+    <button class="btn popup-close" id="closePopupBtn" type="button">Sluiten</button>
+  </div>
+</div>
+
+<script src="js/ask.js"></script>
+</body>
+</html>
